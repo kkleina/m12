@@ -4,15 +4,28 @@
     <title>m12.4</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
 
     <main class="container">
-      <button id="get-joke">Random joke</button>
-      <p id="joke"></p>
+      <header>
+        <h1>Random quote machine</h1>
+      </header>
+      <div class="box">
+        <blockquote>
+          <p class="quote"></p>
+          <footer class="author"></footer>
+        </blockquote>
+      </div>
+      <div>
+        <button class="trigger">Random quote</button>
+        <a href="#" target="_blank" class="tweet"><i class="fa fa-lg fa-twitter"></i> Tweet</a>
+      </div>
     </main>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>

@@ -4,6 +4,7 @@
 
 body {
   background: #2c3e50;
+  color: #ecf0f1;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -17,28 +18,55 @@ body {
   text-align: center;
 }
 
-button {
-  background: #d35400;
-  border: 3px solid #d35400;
+.trigger,
+.tweet {
   border-radius: 10px;
   color: #ecf0f1;
   cursor: pointer;
+  display: block;
   font-size: 14px;
   font-weight: 700;
+  margin: 10px auto;
+  width: 200px;
   padding: 15px 30px;
+  text-decoration: none;
   text-transform: uppercase;
   transition: .5s;
 }
 
-button:hover {
+.trigger {
+  background: #d35400;
+  border: 3px solid #d35400;
+}
+
+.tweet {
+  background: #47a0f0;
+  border: 3px solid #47a0f0;
+}
+
+.trigger:hover {
   background: #ecf0f1;
   color: #d35400;
 }
 
-p {
+.tweet:hover {
+  background: #ecf0f1;
+  color: #47a0f0;
+}
+
+blockquote {
   background: #ecf0f1;
   border-radius: 10px;
   color: #2c3e50;
-  font-size: 16px;
   padding: 30px;
+  text-align: left;
+}
+
+blockquote p {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+blockquote footer {
+  color: #95a5a6;
 }
