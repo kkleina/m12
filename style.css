@@ -5,7 +5,7 @@
 body {
   background: #2c3e50;
   color: #ecf0f1;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -18,55 +18,43 @@ body {
   text-align: center;
 }
 
-.trigger,
-.tweet {
-  border-radius: 10px;
-  color: #ecf0f1;
+button {
+  border: 1px solid #7f8c8d;
+  border-radius: 5px;
+  background: #fff;
+  color: #7f8c8d;
   cursor: pointer;
   display: block;
   font-size: 14px;
   font-weight: 700;
-  margin: 10px auto;
-  width: 200px;
-  padding: 15px 30px;
-  text-decoration: none;
-  text-transform: uppercase;
+  margin: 20px auto;
+  padding: 10px 20px;
   transition: .5s;
 }
 
-.trigger {
-  background: #d35400;
-  border: 3px solid #d35400;
-}
-
-.tweet {
-  background: #47a0f0;
-  border: 3px solid #47a0f0;
-}
-
-.trigger:hover {
+button:hover {
   background: #ecf0f1;
-  color: #d35400;
 }
 
-.tweet:hover {
-  background: #ecf0f1;
-  color: #47a0f0;
+input {
+  border: 1px solid #7f8c8d;
+  border-radius: 5px;
+  max-width: 100%;
+  padding: 10px;
+  width: 500px;
 }
 
-blockquote {
-  background: #ecf0f1;
-  border-radius: 10px;
-  color: #2c3e50;
-  padding: 30px;
-  text-align: left;
+ul {
+  padding: 0;
 }
 
-blockquote p {
-  font-size: 18px;
-  margin-top: 0;
+li {
+  list-style: none;
+  line-height: 2;
 }
 
-blockquote footer {
-  color: #95a5a6;
+.flag {
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
 }
